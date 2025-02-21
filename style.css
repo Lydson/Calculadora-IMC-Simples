@@ -1,0 +1,96 @@
+/* Resetando margens e padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(
+    45deg,
+    #f5a3f5,
+    #f7b0f7,
+    #6a55ff
+  ); /* Gradiente inspirado no Instagram */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+.btn {
+  background-color: #ff6a00;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e65c00;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.result.saudavel {
+  background-color: #e7f7e7;
+  color: #4caf50;
+}
+
+.result.sobrepeso {
+  background-color: #f7e6a1;
+  color: #f39c12;
+}
+
+.result.obesidade {
+  background-color: #f9d6d5;
+  color: #e74c3c;
+}
+
+.result.magreza {
+  background-color: #f0f8ff;
+  color: #3498db;
+}
