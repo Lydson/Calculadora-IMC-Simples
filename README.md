@@ -1,7 +1,8 @@
 # Calculadora de IMC
 
 Este projeto é uma calculadora de IMC (Índice de Massa Corporal) com uma interface simples e bonita, utilizando HTML, CSS e PHP.
-
+![calculadora1](https://github.com/Lydson/Calculadora-IMC-Simples/blob/main/img/calculadora1.png)
+![calculadora1](https://github.com/Lydson/Calculadora-IMC-Simples/blob/main/img/calculadora2.png)
 ## Funcionalidades
 
 - O usuário pode inserir o peso e a altura para calcular o IMC.
